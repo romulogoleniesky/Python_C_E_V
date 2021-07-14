@@ -25,4 +25,3 @@ print(f"Tirando os espaços em execesso com strip: ", String.strip())
 print(f"*"*30)
 print("DIVISÃO DE STRING:")
 print(f"Dividindo uma string com o split: ", String.split())
-
