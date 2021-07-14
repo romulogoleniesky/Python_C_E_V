@@ -1,7 +1,6 @@
-# Desafio 21:
-from pygame import*
+import pygame
 
-pygame.init()  # inicia o pygame
-pygame.mixer.music.load('crazy.mp3')  # carrega o arquivo
-pygame.mixer.music.play()  # inicia o arquivo
-pygame.event.wait()  # espera o arquivo finalizar
+
+pygame.init()
+pygame.mixer.music.load('crazy.mp3')
+pygame.mixer.music.play()

@@ -1,0 +1,28 @@
+# Manipulando as Strings:
+
+String = input("Entre com uma frase: ")
+
+print(f"*"*30)
+print(f'Sua frase foi: {String}')
+print(f"*"*30)
+print("FATIAMENTO")
+print(f'Entre os caracteres 1 e 3: ', String[1:4])
+print(f"Fatiando de 2 em 2: ", String[0::2])
+print(f"*"*30)
+print("ANÁLISE DA STRING:")
+print(f"Quantidade de caracteres(len):", len(String))
+print(f"Contando o caractere específico(count).quant. de letra 'a':",String.count("a"))
+print(f"Encontrar a posição do caracter(find),Encontra 'nh': ", String.find("nh"))
+print(f"Verificar com 'in','frase':", 'frase' in String)
+print(f"*"*30)
+print("TRANSFORMAÇÃO:")
+print(f"Replace troca caracteres: ", String.replace("frase","string"))
+print(f"Só maiúscula com upper:", String.upper())
+print(f"Só minuscula com lower: ", String.lower())
+print(f"Capitalizado: ", String.capitalize())
+print(f"Capitalizado cada palavra com o title: ", String.title())
+print(f"Tirando os espaços em execesso com strip: ", String.strip())
+print(f"*"*30)
+print("DIVISÃO DE STRING:")
+print(f"Dividindo uma string com o split: ", String.split())
+
