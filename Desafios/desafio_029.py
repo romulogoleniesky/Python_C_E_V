@@ -11,5 +11,5 @@ with open("texto.txt") as file:
 if vel <= 80:
     print('OK, velocidade dentro do permitido, siga sua viagem.')
 else:
-    print(f'Você ultrapassou a velocidade permitida de 80km/h, paragá multa de R${(vel-80)*7.00:.2f}. ')
+    print(f'Você ultrapassou a velocidade permitida de 80km/h, pagará multa de R${(vel-80)*7.00:.2f}. ')
 
