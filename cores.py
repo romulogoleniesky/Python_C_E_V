@@ -1,0 +1,17 @@
+# CORES NO TERMINAL
+print("\033[1;30m---------SISTEMA ANSI DE CORES---------\033[m")
+print(" ")
+print("Código de abertura:          Código de fechamento:")
+print("\033[1;30m\ 0 3 3 [0;30;40m   + STRING +   \ 0 3 3 [m\033[m")
+print(" ")
+print("Preenchimento do código de abertura:")
+print("\033[1;30m\ 0 3 3 [ ESTILO  ; COR DO TEXTO   ; COR DE FUNDO m\033[m")
+print("\033[0;30mS/FORMATAÇÃO - 0  ;   BRANCO - 30   ;  \033[1;37;40m BRANCO - 40\033[m")
+print("\033[1;31m   NEGRITO  - 1   ;  VERMELHO - 31  ;  \033[1;37;41m VERMELHO - 41\033[m")
+print("\033[4;32m  SUBLINHADO - 4  ;    VERDE - 32   ;  \033[1;37;42m VERDE - 42\033[m")
+print("\033[7;33m NEGATIVO -7  ;\033[m" + "\033[0;33m  AMARELO - 33\033[m")
+
+print("\033[1;34;m                  ;     AZUL  - 34  ;  \033[1;30;44  AZUL  - 44\033[m")
+print("\033[0;30mS/FORMATAÇÃO - 0  ;    AZUL - 30    ;  \033[1;37;40m BRANCO - 40\033[m")
+print("\033[0;30mS/FORMATAÇÃO - 0  ;   BRANCO - 30   ;  \033[1;37;40m BRANCO - 40\033[m")
+print("\033[0;30mS/FORMATAÇÃO - 0  ;   BRANCO - 30   ;  \033[1;37;40m BRANCO - 40\033[m")
