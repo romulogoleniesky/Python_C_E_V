@@ -4,7 +4,9 @@
 
 print("Hello Word!")
 
-# ou assim:
+
+
+# Segunda maneira:
 
 texto = "Hello Word!"
 print(texto)

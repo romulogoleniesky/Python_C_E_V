@@ -4,12 +4,14 @@
 nome = input("Olá, qual é o seu nome? ")
 print("Seja bem vindo "+nome+"!")
 
-# de outra maneira;
+
+
+# Segunda maneira;
 
 nome2 = input("Oi! Pode me dizer o seu nome? ")
 print("Seja bem vindo {} !".format(nome2))
 
-# outra maneira;
+# Terceira maneira;
 
 nome3 = input("Oi amigo, como você se chama? ")
 print(f'{nome3} é um nome muito bonito!')

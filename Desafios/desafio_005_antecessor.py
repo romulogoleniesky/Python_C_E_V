@@ -7,5 +7,8 @@ antecessor = numero - 1
 sucessor = numero + 1
 print(f"Você digitou {numero} , seu antecessor é {antecessor} e seu sucessor é {sucessor} ! ")
 
+
+# Maneira alternativa:
+
 n = int(input("Digite um número: "))
 print(f"Você digitou {n} , seu antecessor é {n - 1} e seu sucessor é {n + 1} ! ")

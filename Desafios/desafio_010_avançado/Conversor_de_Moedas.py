@@ -1,5 +1,5 @@
 import requests
-from  import BeautifulSoup
+from BeautifulSoup import *
 url = "https://economia.uol.com.br/cotacoes/cambio/"
 req = requests.get(url)
 print(req.content)
