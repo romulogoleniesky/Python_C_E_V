@@ -1,2 +1,6 @@
 # DESAFIO 74:
-num = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+from random import randint
+numero = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
+print(f'Os numeros sorteados foram {numero}')
+print(f'O maior deles e {max(numero)}')
+print(f'O menor deles e {min(numero)}')
