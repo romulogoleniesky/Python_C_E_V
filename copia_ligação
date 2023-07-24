@@ -1,0 +1,5 @@
+num1 = [20]
+num2 = num1 # ligação
+
+num2.append(num1[:]) # copia
+
